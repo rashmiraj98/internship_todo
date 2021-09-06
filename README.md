@@ -1,132 +1,57 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Internship Report</title>
-<!--CSS Style start --->
-<!--Dont change the CSS unless you want to modify it -->
-<style type="text/css">
-#main-header{
-text-align: center;
-background-color: skyblue;
-color: white;
-padding: 10px;
-}
-#Aboutme-header{
-text-align: center;
-background-color: white;
-color: black;
-font-size: 38px;
-padding: 10px;
-}
-#main-footer{
-text-align: center;
-background-color: skyblue;
-color: white;
-font-size: 18px;
-padding: 10px;
-width: 100%;
-height: 10%;
-}
-.center {
-  display: block;
-margin-left: auto;
-margin-right: auto;
-width: 50%;
-}
-</style>
-<!--CSS Style end --->
-</head>
-<body>
-<!-- Headings -->
-<header id="main-header">
-<h1>My Internship with DLithe - www.dlithe.com</h1>
-<h3>Month:July Year:2021</h3>
-<h3>Mode: Online</h3>
-<h3>Duration: 1 month</h3>
-</header>
+Getting Started with Create React App
+This project was bootstrapped with Create React App.
 
-<!-- Paragraphs -->
-<header id="Aboutme-header">
-<h6>About me:</h6>
-</header>
+Available Scripts
+In the project directory, you can run:
 
-<!-- keep the profile pic in the same folder as your index.html file-->
+npm start
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser.
 
-<img src="myavtr.png" width="200" height="425" class="center">
+The page will reload if you make edits.
+You will also see any lint errors in the console.
 
-<p>
-I  <strong>RASHMI G R, Id:1TD19MCA10, student of BMS Institute Of Technology & Management, Bengaluru, Master Of Computer Applications department,</strong> studying in 3rd year. I am passionate about technology trends and exploring different programming languages to upskill towards industry needs.
+npm test
+Launches the test runner in the interactive watch mode.
+See the section about running tests for more information.
 
-Internship is an opprtunity for me to learn Domain, Technology, Process used in the industry. The outcome of internship is completion of proof of concept and publish it in github platform
-</p>
+npm run build
+Builds the app for production to the build folder.
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-<h6>About the company:</h6>
-<p>
-DLithe Consultancy Services Private Limited is Bengaluru based EdTech company, started in the year 2018. It is lead by industry professional with two decades of experience in the field of Information Technology - Product, Project Management, Engineering Excellence and Delivery, Customer Management, Humanr Resource management areas.
-</p>
-<p>
-The company provides technology services such as platform migrations, application development and maintenance, product development. The company also provides competency development services to corporate and major academic institutions to build an agile workforce.
+The build is minified and the filenames include the hashes.
+Your app is ready to be deployed!
 
-The company has 20+ technical consultants engaged in technical delivery. The company has recently built a mobile applicaiton for health care client
-</p>
-<h5>Internship Journey:</h5>
-<p>
-The internship was on <em><strong>Front End Development</strong></em>. I learnt about  Web Technology such as HTM,CSS,Javascrpt.
-</p>
-<p>
-I learnt about importance of JSON and various Datatypes,restructing input data.
-</p>
-<p>
-I learnt about  Installation of React and environment set-up.
-</p>
-<p>
-I worked on proof of concept using React.
-</p>
+See the section about deployment for more information.
 
-<!-- Un ordered Lists-->
+npm run eject
+Note: this is a one-way operation. Once you eject, you can’t go back!
 
-<h6><em>Program Summary</em></h6>
-<ul>
-<li>Introduction to Web Technology</li>
-<li>Basics of HTML, CSS</li>
-<li>Basics of JavaScript(Scenarios of JSON)</li>
-<ul><li>Syntax and Datatypes</li>
-<li>Data transfer between API'S,Client and Server</li>
-<li>Restructuring input data from the user</li></ul>
-<li>React Installation, Environment Setup</li>
-<li>Fundamentals of React</li>
-</ul>
+If you aren’t satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-<p> By now, I know Front End Development, JSON and basics of React
-Overall it was good experience to enhance my technical skills while I also learnt about domain and process. I look forward to implement these as I begin my career as software professional, soon.
-</p>
+You don’t have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-<h5>Deliverables:</h5>
-<!-- Ordered Lists-->
-<ol>
-<li>Github:<a href="https://github.com/rashmiraj98" target="_blank">My github</a></li>
+Learn More
+You can learn more in the Create React App documentation.
 
-<li>Linkedin:<a href="https://www.linkedin.com/in/rashmi-gr-8423a221a" target="_blank">My Profile</a></li>
+To learn React, check out the React documentation.
 
-<li>Blog/Document link(Google Drive):<a href="https://google.com" target="_blank">My Blog/Report</a></li>
+Code Splitting
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-</ol>
-<br>
-<br>
-<hr>
-<br>
-<br>
+Analyzing the Bundle Size
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-<footer id="main-footer">
-<footer>
-<p>End of Internship Report &copy; 2021, RASHMI G R</p>
-<p>RASHMI G R, grrashmi915@gmail.com, contact:8762644894</p>
-</footer>
+Making a Progressive Web App
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-<div style="margin-top: 50px"></div>
+Advanced Configuration
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-</body>
-</html>
+Deployment
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
+npm run build fails to minify
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
